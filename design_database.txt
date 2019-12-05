@@ -1,0 +1,16 @@
+pseudocode case uts
+//start
+//hrd / produksi / marketing
+//pengajuan cuti
+//validasi ke hrd
+//jika (punya cuti) {
+    maka cuti
+} jika tidak ada {
+    tidak bisa cuti
+} jik cuti (approve ke atasan)
+
+
+
+skema database
+nama database : db_ptKaryaAnakBangsa
+nama tabel : t_cuti (id primary key auto_increment, nik varchar(10), nama varchar(20), jabatan varchar(20), hakCuti int(2))
